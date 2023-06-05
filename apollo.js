@@ -1,7 +1,7 @@
-for (let i = 12; i >= 0; i--) {
-     if (i == 8) {
+for (let compteur = 12; i >= 0; compteur--) {
+     if (compteur == 8) {
           console.log("Ignition sequence start")
-     } else if (i !== 7)
+     } else if (compteur !== 7)
           console.log(i)
 }
 console.log("All engines running")
